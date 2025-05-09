@@ -5,11 +5,11 @@ public class PalabraClaveThis {
 	String nombre;
 	String grado;
 	
-	public PalabraClaveThis(int i, String n, String s) {
+	public PalabraClaveThis(int numeromatricula, String nombre, String grado) {
 		
-		numeromatricula =i;
-		nombre=n;
-		grado= s;
+		this.numeromatricula =numeromatricula;
+		this.nombre=nombre;
+		this.grado= grado;
 	}
 	 public void display() {
 		System.out.println("Numero matricula: " + numeromatricula + " Nombre es: " + nombre + " Clase: " + grado);
