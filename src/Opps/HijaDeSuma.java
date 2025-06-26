@@ -11,5 +11,4 @@ public class HijaDeSuma extends Suma {
 		System.out.println("Suma de d: " + d);
 		
 	}
-
 }
