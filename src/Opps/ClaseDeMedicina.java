@@ -20,4 +20,8 @@ public class ClaseDeMedicina implements Estudiante {
 		
 	}
 
+	public void OntenerNombreInterface() {
+		
+	}
+
 }

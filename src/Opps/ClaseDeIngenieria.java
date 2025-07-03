@@ -17,10 +17,8 @@ public class ClaseDeIngenieria implements Estudiante{
 	}
 	
 	public void obtenerUniversidad() {
-	System.out.println("La universidad es :" + Estudiante.universidad);		
-	}
-
-	
+	System.out.println("La universidad es : " + universidad);		
+	}	
 
 	public static void main(String[] args) {
 	
@@ -37,12 +35,8 @@ public class ClaseDeIngenieria implements Estudiante{
 		med.obtenerNumeroEstudiantes();
 		med.obtenerGrado();
 		med.obtenerUniversidad();
-		
-		
-		
-
 	}
-
-
-	
+	public void OntenerNombreInterface() {
+		
+	}	
 }
