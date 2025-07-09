@@ -21,7 +21,7 @@ public class PasarArregloAmetodo {
 	}
 	public static void main(String[] args ) {
 		PasarArregloAmetodo objarr = new PasarArregloAmetodo();
-		int arrgloPrueba[]= {3,12,1,5,80};
+		int arrgloPrueba[]= {3,1,5,80};
 		objarr.Encontrar(arrgloPrueba);
 		
 		//-----------------------------------------
