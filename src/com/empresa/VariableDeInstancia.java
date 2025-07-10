@@ -1,7 +1,5 @@
 package com.empresa;
 
-import java.time.temporal.ValueRange;
-
 public class VariableDeInstancia {
 	String nombre;
 	void mostrarNombre()

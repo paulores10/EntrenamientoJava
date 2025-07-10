@@ -1,7 +1,5 @@
 package com.empresa;
 
-import java.security.PublicKey;
-
 public class Perro {
 	String nombre="Maia";
 	String raza="Husky";
