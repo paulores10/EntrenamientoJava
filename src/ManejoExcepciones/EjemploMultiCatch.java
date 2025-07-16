@@ -9,7 +9,7 @@ public class EjemploMultiCatch {
 			int resultado = 10/0; // Esto lanza AritmethicException
 			FileReader file = new FileReader("archivo.txt");
 			
-		} catch (ArithmeticException | IDException e) {
+		} catch (ArithmeticException | IOException e) {
 			System.out.println("!Ocurrio una excepción");
 			System.out.println(e.getClass().getSimpleName());
 		}
